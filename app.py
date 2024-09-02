@@ -47,7 +47,7 @@ def generate_gemini_content(image_path):
 
         model = genai.GenerativeModel("gemini-pro")
         # Generate prompt for analyzing the image
-        prompt = f"""
+        prompt = """
         You are a medical practitioner and an expert in analyzing medical related images working for a very reputed hospital. 
         You will be provided with images and you need to identify the anomalies, any disease or health issues. 
         You need to generate the result in detailed manner. Write all the findings, next steps, recommendation, etc. 

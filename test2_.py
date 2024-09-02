@@ -15,4 +15,6 @@ def main():
         st.image(image, caption="Uploaded Photo", use_column_width=True)
 
 if __name__ == "__main__":
+pip install  streamlit
+
     main()
